@@ -1,0 +1,210 @@
+.Background{
+    background-image: linear-gradient(45deg, black, cornflowerblue);
+    height: 100vh;
+    color: white;
+}
+
+.Calculadora{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#Resultado{
+    width: 230px;
+    height: 50px;
+    background-color: 	#4F4F4F;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: right;
+}
+
+
+.botao{
+    background-color: gray;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: #363636;
+    border-radius: 16px;
+    box-shadow: 0 0 2rem gray;
+}
+
+.botaoazul{
+    background-color: blue;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin: 3px;
+}
+
+.botaoazul:hover{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+    border-radius: 16px;
+    box-shadow: 0 0 2rem cadetblue;
+}
+
+.botaoverde{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    border-radius: 100%;
+    margin: 3px;
+}
+
+.botaoverde:hover{
+    background-color: greenyellow;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem green;
+}
+
+.botaopare{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.botaopare:hover{
+    background-color: blue;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem cornflowerblue;
+}
+
+.botaoraiz{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.botaoraiz:hover{
+    background-color: blue;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem cornflowerblue;
+}
+
+.botaodiv{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.botaodiv:hover{
+    background-color: blue;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem cornflowerblue;
+}
+
+.botaomulti{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.botaomulti:hover{
+    background-color: blue;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem cornflowerblue;
+}
+
+.botaomenos{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.botaomenos:hover{
+    background-color: blue;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem cornflowerblue;
+}
+
+.botaomais{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.botaomais:hover{
+    background-color: blue;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-shadow: 0 0 2rem cornflowerblue;
+}
+
+.botaoapagar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url(../img/Apagar2.png);
+    background-color: red;
+    cursor: pointer;
+    margin: 3px;
+    background-size: 100%;
+}
+
+.botaoapagar:hover{
+    border-radius: 16px;
+    background-color: crimson;
+    box-shadow: 0 0 2rem  rgb(222, 66, 97);
+    transition: 0.5s;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
