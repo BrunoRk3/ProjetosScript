@@ -20,6 +20,7 @@ function calcular(){
     }
     else{
         document.getElementById('Resultado').innerHTML ="Nada..."
+ //teste
     }
 }
 
